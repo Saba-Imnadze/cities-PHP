@@ -1,0 +1,50 @@
+.delete_container {
+  /* font-family: "Roboto", sans-serif;
+  background-color: #f8f8f8; */
+  text-align: center;
+  margin: 50px;
+}
+
+.delete_form {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.deleteBtn_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.delete_confirm {
+  padding: 10px 20px;
+  width: 100px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.delete_confirm:hover {
+  background-color: red;
+}
+
+.delete_cancel {
+  display: inline-flex;  
+  align-items: center;  
+  justify-content: center;
+  width: 100px;
+  height: 50px;
+  background-color: indigo;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.delete_cancel:hover {
+  background-color: rgb(56, 6, 92);
+}
+
+span {
+  color: red;
+}
